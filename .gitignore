@@ -1,0 +1,6 @@
+vendor/
+*.lock
+*.exe
+*.env
+*.log
+swapi

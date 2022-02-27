@@ -1,0 +1,7 @@
+*_test.go
+testdata*
+vendor/
+*.lock
+*.exe
+.env
+*.log
