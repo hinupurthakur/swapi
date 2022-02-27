@@ -12,7 +12,6 @@ import (
 func init() {
 	if os.Getenv("DEBUG") == "true" {
 		logFileName := "swapi_" + time.Now().Format("20060102150405") + ".log"
-
 		logFile, _ := os.OpenFile(logFileName, os.O_WRONLY|os.O_APPEND|os.O_CREATE, 0o644)
 		Formatter := new(log.TextFormatter)
 		Formatter.FullTimestamp = true

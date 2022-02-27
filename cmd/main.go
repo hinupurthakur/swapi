@@ -6,8 +6,8 @@ import (
 	"os"
 
 	_ "github.com/hinupurthakur/swapi/config"
-	_ "github.com/hinupurthakur/swapi/db"
 	_ "github.com/hinupurthakur/swapi/logging"
+	_ "github.com/hinupurthakur/swapi/db"
 	"github.com/hinupurthakur/swapi/routes"
 	log "github.com/sirupsen/logrus"
 )
