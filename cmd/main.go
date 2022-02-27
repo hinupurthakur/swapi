@@ -15,6 +15,7 @@ import (
 func init() {
 	log.Println("initizalizing the server ")
 }
+
 func main() {
 	port := os.Getenv("SERVER_PORT")
 	r := routes.CreateRoutes()
