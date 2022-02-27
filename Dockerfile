@@ -10,7 +10,7 @@ COPY go.mod go.sum ./
 RUN go mod download
 
 ADD . .
-RUN go build -o bin/app main.go
+RUN go build -o bin/app cmd/main.go
 
 
 FROM alpine:latest
